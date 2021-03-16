@@ -1,4 +1,5 @@
 # Pheed
+Track users and their media feeds across the web!
 
 ```bash
 $ git clone https://github.com/crosscripter/pheed
