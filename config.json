@@ -1,0 +1,8 @@
+{
+    "pages": {
+        "instagram": {
+            "login": "https://www.instagram.com/accounts/login/",
+            "profile": "https://www.instagram.com/$user"
+        }
+    }
+}

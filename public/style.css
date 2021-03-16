@@ -1,0 +1,92 @@
+body { 
+    font-family: 'Assistant', sans-serif;
+    overflow-y: scroll; 
+}
+.profile {
+    background: none;
+    background-color: transparent;
+}
+.profileImage {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+    left: 20px;
+    opacity: 0;
+    border: 3px solid #fff;
+    background-size: cover;
+    filter: saturate(1.5); 
+    transition: opacity 0.3s ease-in;
+}
+.username { 
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.banner {
+    opacity: 0.3;
+    height: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    background-image: linear-gradient(45deg, #000, #aaa);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    object-fit: contain;
+    box-shadow: inset 0px 0px 200px rgba(0,0,0,0.5);
+    transition: all 1s ease-in-out;
+}
+.imageGrid { 
+    height: 100%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    background: #eee;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.more { 
+    text-align: center; 
+    color: #aaa; 
+    font-weight:bold; 
+    font-size: 6.5rem;
+    background-image: none !important;
+} 
+.more:hover {
+    box-shadow: none;
+    transform: none;
+    color: lightGreen;
+    border: 3px solid transparent;
+}
+.image { 
+    float: left;
+    margin: 3px; 
+    opacity: 0.2;
+    width: 195px; 
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    border-radius: 0px;
+    background-size: cover;
+    border: 3px solid #fff;
+    background-color: #eee;
+    background-position: center;
+    transition: opacity 0.3s ease-in-out;
+    background-image: url("https://media.tenor.com/images/bbb50ff4db515dbe3e2dbdbc76a6403a/tenor.gif");
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3), inset 0px 0px 10px rgba(0,0,0,0.7);
+}
+
+.image:hover { 
+    opacity: 1; 
+    cursor: pointer;
+    transform: translate(-3px,-3px) scale(1.025);
+    box-shadow: 6px 6px 5px rgba(0,0,0,0.2), inset 0px 0px 5px rgba(0,0,0,0.5);
+}
